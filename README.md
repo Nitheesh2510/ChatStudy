@@ -7,37 +7,61 @@ Client-server chat applications are a category of networked software that enable
 Client-server chat applications are software systems that enable real-time communication between users over a network. These applications follow a client-server model, where one component (the server) manages connections and facilitates communication, while the other component (the client) interacts with the server to send and receive messages. Below are the fundamental aspects and components involved in the basics of client-server chat applications:
 ## 1. Client-Server Model:
 •	Server:
+
 •	The server is a central component that listens for incoming connections from clients.
+
 •	It manages the communication channels and facilitates the exchange of messages between clients.
+
 •	It may handle user authentication, message routing, and other core functionalities.
+
 •	Client:
+
 •	Clients are users or devices that connect to the server to participate in the chat.
+
 •	Each client has a unique identity, often represented by a username.
+
 •	Clients interact with the server to send and receive messages.
+
 ## 2. Communication Protocols:
+
 •	Communication between clients and servers often relies on established protocols. The choice of protocol influences the behavior of the chat application.
+
 •	TCP (Transmission Control Protocol):
+
 •	Provides reliable, connection-oriented communication.
+
 •	Ensures the ordered and error-free exchange of messages.
 
 •	UDP (User Datagram Protocol):
+
 •	Connectionless and operates in a best-effort mode.
+
 •	Faster but may result in message loss or disorder.
+
 ## 3. Socket Programming:
 •	Sockets:
 
 •	Sockets serve as communication endpoints.
+
 •	Each client and the server has a socket for sending and receiving data.
 
 •	Functions:
+
 •	Socket programming involves functions for creating, binding, listening, accepting connections, and sending/receiving data through sockets.
 ## 4. User Authentication:
+
 •	For security and privacy, chat applications often implement user authentication mechanisms.
+
+
 •	Users are required to provide credentials (e.g., username and password) to access the chat system.
+
 •	More advanced methods like tokens or secure protocols can enhance authentication.
+
 5. Message Routing:
 •	The server is responsible for routing messages from one client to another.
+
 •	It ensures that messages are delivered to the intended recipients.
+
 •	Message routing may involve maintaining a list of connected users and their associated sockets.
 
 ## Architecture:
@@ -122,7 +146,14 @@ while True:
 client_socket.close()
 ```
 ## Output:
+Client
+
+
 <img width="1033" height="140" alt="365598263-8b7d7b03-a82b-48d2-b7fb-ef19718a312f" src="https://github.com/user-attachments/assets/0c9169fd-7f65-472d-a47f-81dd6086a2d6" />
+Server
+
+
+<img width="1033" height="160" alt="365598376-1c188541-4731-498f-8052-13c7c44088fd" src="https://github.com/user-attachments/assets/a393eb55-9916-4f9b-be87-42fb20c7e631" />
 
 ## Result:
 
