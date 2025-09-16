@@ -1,5 +1,6 @@
 # Ex. No:1b 			Study of Client Server Chat Applications
-
+# Name: Nitheesh Kumar
+## reg No:212224230189
 ## Aim: 
 To perform a study on Client Server Chat Applications
 ## Introduction:
