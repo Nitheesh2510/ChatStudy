@@ -149,12 +149,13 @@ client_socket.close()
 ## Output:
 Client
 
+<img width="525" height="246" alt="Screenshot 2025-09-23 090113" src="https://github.com/user-attachments/assets/3eec6a23-743b-42ba-a9c2-a86bdec51775" />
 
-<img width="1033" height="140" alt="365598263-8b7d7b03-a82b-48d2-b7fb-ef19718a312f" src="https://github.com/user-attachments/assets/0c9169fd-7f65-472d-a47f-81dd6086a2d6" />
+
 Server
 
 
-<img width="1033" height="160" alt="365598376-1c188541-4731-498f-8052-13c7c44088fd" src="https://github.com/user-attachments/assets/a393eb55-9916-4f9b-be87-42fb20c7e631" />
+<img width="527" height="211" alt="Screenshot 2025-09-23 090118" src="https://github.com/user-attachments/assets/f2a32943-e152-44d5-af40-a1b87d011231" />
 
 ## Result:
 
